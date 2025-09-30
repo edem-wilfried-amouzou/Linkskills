@@ -1,4 +1,4 @@
-Présentation
+- Présentation
 
 LinkSkills est une plateforme 100% frontend dédiée à la solidarité et à l’entraide.
 
@@ -10,10 +10,9 @@ Demander de l’aide
 
 Explorer toutes les offres et demandes de la communauté
 
-💡 Sans backend, sans API, tout est géré dans le navigateur avec localStorage.
+Sans backend, sans API, tout est géré dans le navigateur avec localStorage.
 
-🚀 Fonctionnalités
-Fonctionnalité	Description
+- Fonctionnalité	Description
 Accueil	Page d’introduction immersive avec gradient et CTA.
 Offrir de l’aide	Formulaire pour proposer ses compétences.
 Demander de l’aide	Formulaire pour exprimer ses besoins.
@@ -21,7 +20,7 @@ Communauté	Affichage dynamique de toutes les offres et demandes avec recherche 
 À propos	Explication du projet et présentation du créateur.
 Responsive Design	Compatible mobile, tablette et desktop.
 Navbar Sticky	Navigation accessible sur toutes les pages.
-🎨 Design
+Design
 
 Thème sombre : gradient violet / bleu nuit.
 
@@ -31,7 +30,7 @@ Effets hover sur boutons et liens.
 
 Typography moderne : lisible et impactante.
 
-Tech Stack
+- Tech Stack
 
 HTML5 : Structure et contenu
 
@@ -41,7 +40,7 @@ JavaScript : Interaction et localStorage
 
 Vite / Node.js : Dev server et live reload
 
-💾 Stockage des données
+- Stockage des données
 
 Tout est stocké dans le localStorage.
 
@@ -49,7 +48,7 @@ Les offres et demandes sont sauvegardées sous forme JSON.
 
 Pas de serveur ni backend requis.
 
-Installation & usage
+- Installation & usage
 git clone https://github.com/ton-utilisateur/linkskills.git
 cd linkskills
 npm install
