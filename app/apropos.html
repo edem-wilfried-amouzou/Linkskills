@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>À propos - Linkskills</title>
+        <link rel="stylesheet" href="/src/style.css" />
+    </head>
+    <body
+        class="bg-gradient-to-b from-[#1a1433] via-[#1a1a2e] to-[#0f0c29] text-white font-sans"
+    >
+        <!-- 🌐 Navbar -->
+        <nav
+            class="sticky top-0 z-50 bg-[#1a1433]/90 backdrop-blur-md shadow-lg"
+        >
+            <div
+                class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+            >
+                <a
+                    href="/src/index.html"
+                    class="text-2xl font-bold tracking-wide text-purple-400 hover:text-purple-300"
+                    >LinkSkills</a
+                >
+                <div class="hidden md:flex space-x-8 text-lg">
+                    <a href="/src/index.html" class="hover:text-purple-300"
+                        >Accueil</a
+                    >
+                    <a
+                        href="/app/apropos.html"
+                        class="text-purple-400 font-semibold"
+                        >À propos</a
+                    >
+                    <a href="/app/offrir.html" class="hover:text-purple-300"
+                        >Offrir de l'aide</a
+                    >
+                    <a href="/app/demander.html" class="hover:text-purple-300"
+                        >Demander de l'aide</a
+                    >
+                    <a href="/app/communaute.html" class="hover:text-purple-300"
+                        >Communauté</a
+                    >
+                </div>
+                <!-- Menu mobile -->
+                <button
+                    id="menu-btn"
+                    class="md:hidden focus:outline-none text-purple-300"
+                >
+                    ☰
+                </button>
+            </div>
+            <div id="menu" class="md:hidden flex flex-col space-y-2 px-6 pb-4">
+                <a href="index.html" class="hover:text-purple-300">Accueil</a>
+                <a href="apropos.html" class="text-purple-400 font-semibold"
+                    >À propos</a
+                >
+                <a href="offrir.html" class="hover:text-purple-300"
+                    >Offrir de l'aide</a
+                >
+                <a href="demander.html" class="hover:text-purple-300"
+                    >Demander de l'aide</a
+                >
+                <a href="communaute.html" class="hover:text-purple-300"
+                    >Communauté</a
+                >
+            </div>
+        </nav>
+
+        <!-- 🎯 Titre -->
+        <header class="text-center py-16 px-6">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                À propos de Linkskills
+            </h1>
+            <p class="text-gray-300 max-w-3xl mx-auto">
+                SolidarityHub est une plateforme 100% frontend créée pour le
+                Hackathon. Son objectif est simple : favoriser l’entraide et la
+                solidarité entre toutes les personnes, sans frontière ni
+                barrière.
+            </p>
+        </header>
+
+        <!-- 🌟 Mission -->
+        <section class="max-w-5xl mx-auto px-6 py-12">
+            <h2 class="text-3xl font-bold mb-8 text-purple-300 text-center">
+                Notre mission
+            </h2>
+            <p class="text-gray-300 text-lg text-center mb-6">
+                Offrir un espace où chacun peut partager ses compétences ou
+                demander de l’aide, sans argent. L’objectif est de créer une
+                communauté solidaire où le savoir circule librement et où la
+                timidité n’est pas un obstacle.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8 text-center mt-12">
+                <div class="bg-[#1a1a2e] p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">
+                        Partage
+                    </h3>
+                    <p class="text-gray-300 text-sm">
+                        Chaque compétence compte. Chaque besoin compte. Le
+                        partage multiplie la valeur de chacun.
+                    </p>
+                </div>
+                <div class="bg-[#1a1a2e] p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">
+                        Communauté
+                    </h3>
+                    <p class="text-gray-300 text-sm">
+                        Briser les barrières culturelles, sociales et
+                        économiques pour créer une vraie entraide universelle.
+                    </p>
+                </div>
+                <div class="bg-[#1a1a2e] p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">
+                        ⚡ Rapidité
+                    </h3>
+                    <p class="text-gray-300 text-sm">
+                        Système simple, instantané et efficace, totalement
+                        frontend, pour que chacun puisse agir immédiatement.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 👨‍💻 Créateur / Équipe -->
+        <section class="max-w-5xl mx-auto px-6 py-12">
+            <h2 class="text-3xl font-bold mb-8 text-purple-300 text-center">
+                Créateur
+            </h2>
+            <div
+                class="flex flex-col md:flex-row justify-center items-center gap-8"
+            >
+                <div
+                    class="bg-[#1a1a2e] p-6 rounded-xl shadow-lg text-center max-w-xs"
+                >
+                    <div
+                        class="w-32 h-32 mx-auto mb-4 rounded-full bg-purple-500 flex items-center justify-center text-4xl font-bold text-white"
+                    >
+                        WA
+                    </div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">
+                        Edem Wilfried Amouzou
+                    </h3>
+                    <p class="text-gray-300 text-sm">
+                        Développeur et créateur de Linkskills. Passionné par la
+                        tech, l’entraide et l’impact social.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📌 Footer -->
+        <footer class="bg-[#1a1433] py-6 text-center text-gray-400 text-sm">
+            © 2025 Linkskills
+        </footer>
+
+        <!-- JS -->
+        <script>
+            // Menu mobile
+            const menuBtn = document.getElementById("menu-btn");
+            const menu = document.getElementById("menu");
+            menuBtn.addEventListener("click", () =>
+                menu.classList.toggle("hidden"),
+            );
+        </script>
+    </body>
+</html>
