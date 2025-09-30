@@ -55,6 +55,5 @@ npm install
 npm run dev
 
 
-Ouvrir le navigateur à l’URL affichée (généralement http://localhost:5173)
 
 Commencer à proposer ou demander de l’aide
