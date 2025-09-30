@@ -49,7 +49,7 @@ Les offres et demandes sont sauvegardées sous forme JSON.
 Pas de serveur ni backend requis.
 
 - Installation & usage
-/git clone https://github.com/ton-utilisateur/linkskills.git
+: git clone https://github.com/edem-wilfried-amouzou/linkskills.git
 /cd linkskills
 /npm install
 /npm run dev
